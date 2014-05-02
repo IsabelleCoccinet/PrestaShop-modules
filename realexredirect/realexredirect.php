@@ -8,7 +8,7 @@ if (!defined('_PS_VERSION_'))
 
 class RealexRedirect extends PaymentModule
 {
-	private $html = '';
+	private $html = "";
 	private $post_errors = array();
 	private $edit_account;
 	public $merchant_id;
